@@ -2260,6 +2260,7 @@ export interface VideoProps {
     onPlaybackStatusUpdate?: (status: PlaybackStatus) => void;
     onReadyForDisplay?: (event: ReadyForDisplayEvent) => void;
     onIOSFullscreenUpdate?: (event: FullscreenUpdateEvent) => void;
+    onFullscreenUpdate?: (event: FullscreenUpdateEvent) => void;
 
     onLoadStart?: () => void;
     onLoad?: (status: PlaybackStatus) => void;
